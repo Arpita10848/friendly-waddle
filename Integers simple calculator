@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+           Scanner sc = new Scanner (System.in);
+           int x = sc.nextInt();
+           int y = sc.nextInt();
+//           For addition of two integers
+        System.out.print("Adding the two values we get ");
+        System.out.println(x+y);
+
+//        For subtraction
+        System.out.print("Subtracting second value from first value we get ");
+        System.out.println(x-y);
+        System.out.print("Subtracting first value from second value we get ");
+        System.out.println(y-x);
+
+//        For multiplication
+        System.out.print("Multiplying the two given values we get ");
+        System.out.println(x*y);
+
+//        For division
+        System.out.print("When dividing first integer by second integer we get ");
+        System.out.println(x/y);
+        System.out.print(("When dividing second integer by first we get "));
+        System.out.println(y/x);
+        System.out.println("NOTE: The answers are in integers because we are dealing with only integers in this program.");
+        System.out.println("So even if the answer contains decimal value while dividing only value before the decimal point will be displayed.");
+        }
+    }
